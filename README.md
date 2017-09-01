@@ -12,3 +12,14 @@ In the source directory, run the setup script.
 ```
 
 That should install the project into a directory called 'package'.
+
+The executables can be found in `package/bin`.
+
+```
+./package/bin/gnu-guitar-qt
+```
+
+### Building on Windows
+
+Building on Windows isn't supported yet but will be soon.
+
