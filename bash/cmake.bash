@@ -7,7 +7,8 @@ function cmake_build {
 	cd "$binary_dir"
 	cmake "$source_dir" -DCMAKE_INSTALL_PREFIX="$install_dir" \
 	                    -DCMAKE_PREFIX_PATH="$install_dir" \
-	                    -DBUILD_SHARED_LIBS=OFF
+	                    -DBUILD_SHARED_LIBS=OFF \
+                            -DCMAKE_BUILD_TYPE=Debug
 	cmake --build . --target install
 }
 
