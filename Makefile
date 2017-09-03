@@ -10,11 +10,14 @@
 # There is no requirement to use this file
 # instead of the scripts directly.
 
+.PHONY: all
 all:
 	./setup.bash
 
+.PHONY: build
 build:
 	./build.bash
 
+.PHONY: clean
 clean:
 	./clean.bash
