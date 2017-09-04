@@ -5,7 +5,7 @@ GNU Guitar is a free, cross platform application for manipulating guitar audio i
 
 ### Building on Linux
 
-In the source directory, run the setup script.
+In the source directory, run the bash script.
 
 ```
 ./setup.bash
@@ -21,5 +21,16 @@ The executables can be found in `package/bin`.
 
 ### Building on Windows
 
-Building on Windows isn't supported yet but will be soon.
+In the source directory, run the batch script.
 
+```
+.\setup.bat
+```
+
+That, like the Linux build, should create a directory called 'package'.
+
+The executable lives in `package\bin`.
+
+```
+.\package\bin\gnu-guitar-qt.exe
+```
