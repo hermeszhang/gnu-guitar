@@ -10,7 +10,7 @@ if not exist "build\core" (
   mkdir "build\core"
 )
 cd "build\core"
-cmake "%current_dir%\repositories\core" -DCMAKE_INSTALL_PREFIX="%current_dir%\package"
+cmake "%current_dir%\repositories\core" -DCMAKE_INSTALL_PREFIX="%current_dir%\package" -G "Visual Studio 15 2017 Win64"
 if %errorlevel% neq 0 (
   exit \b %errorlevel%
 )
@@ -25,7 +25,7 @@ if not exist "build\gnu-guitar-qt" (
   mkdir "build\gnu-guitar-qt"
 )
 cd "build\gnu-guitar-qt"
-cmake "%current_dir%\repositories\gnu-guitar-qt" -DCMAKE_INSTALL_PREFIX="%current_dir%\package"
+cmake "%current_dir%\repositories\gnu-guitar-qt" -DCMAKE_INSTALL_PREFIX="%current_dir%\package" -G "Visual Studio 15 2017 Win64"
 if %errorlevel% neq 0 (
   exit \b %errorlevel%
 )
