@@ -1,5 +1,7 @@
 function cmake_build {
 	project=$1
+	shift
+	cmake_args=$@
 	source_dir="$root/repositories/$project"
 	binary_dir="$root/build/$project"
 	install_dir="$root/package"
@@ -8,7 +10,7 @@ function cmake_build {
 	cmake "$source_dir" -DCMAKE_INSTALL_PREFIX="$install_dir" \
 	                    -DCMAKE_PREFIX_PATH="$install_dir" \
 	                    -DBUILD_SHARED_LIBS=OFF \
-                            -DCMAKE_BUILD_TYPE=Debug
+                            -DCMAKE_BUILD_TYPE=Debug $cmake_args
 	cmake --build . --target install
 }
 
