@@ -22,8 +22,10 @@ That should install the project into a directory called 'package'.
 
 The executables can be found in `package/bin`.
 
+You can run it with the `run.bash` script, which sets the LADSPA path.
+
 ```
-./package/bin/gnu-guitar-qt
+./run.bash
 ```
 
 ### Building on Windows
