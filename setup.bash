@@ -13,7 +13,7 @@ mkdir -p "repositories"
 mkdir -p "build"
 mkdir -p "package"
 
-git_repo_update "https://github.com/gnu-guitar/artwork.git" "repositories/artwork"
+git_repo_update "https://github.com/gnu-guitar/effects.git" "repositories/effects"
 git_repo_update "https://github.com/gnu-guitar/gnu-guitar-core.git" "repositories/core"
 git_repo_update "https://github.com/gnu-guitar/gnu-guitar-qt.git" "repositories/gnu-guitar-qt"
 

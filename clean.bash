@@ -8,4 +8,5 @@ export root="$PWD"
 source "bash/cmake.bash"
 
 cmake_clean "gnu-guitar-qt"
-cmake_clean "rtaudio"
+cmake_clean "core"
+cmake_clean "effects"
