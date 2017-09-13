@@ -15,6 +15,6 @@ mkdir -p "package"
 
 git_repo_update "https://github.com/gnu-guitar/effects.git" "repositories/effects"
 git_repo_update "https://github.com/gnu-guitar/gnu-guitar-core.git" "repositories/core"
-git_repo_update "https://github.com/gnu-guitar/gnu-guitar-qt.git" "repositories/gnu-guitar-qt"
+git_repo_update "https://github.com/gnu-guitar/gnu-guitar-qt.git" "repositories/gui"
 
 ./build.bash
