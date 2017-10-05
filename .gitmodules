@@ -1,0 +1,9 @@
+[submodule "components/effects"]
+	path = components/effects
+	url = https://github.com/gnu-guitar/effects
+[submodule "components/gui"]
+	path = components/gui
+	url = https://github.com/gnu-guitar/gui
+[submodule "components/core"]
+	path = components/core
+	url = https://github.com/gnu-guitar/core
